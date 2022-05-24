@@ -11,10 +11,11 @@ export interface GenericHttpRequest {
     body?: any,
     url?: string,
     method?: string,
-    headers?: any,
+    headers?: any, 
 
 }
 
 export interface IController {
+    
     handle: (httpRequest: GenericHttpRequest) => Promise<GenericHttpResponse>
 }

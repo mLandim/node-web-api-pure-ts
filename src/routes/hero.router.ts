@@ -1,6 +1,5 @@
 import { IncomingMessage, ServerResponse } from "node:http";
 import Router, {ResponseWrapper} from "./Router";
-import { DEFAULT_HEADER } from '../utils/headers'
 import { Implementations } from '../implementations' 
 
 
